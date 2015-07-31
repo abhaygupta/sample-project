@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37" started-at="2015-07-30T10:12:02Z" finished-at="2015-07-30T10:12:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37" started-at="2015-07-30T10:12:02Z" finished-at="2015-07-30T10:12:02Z">
+      <class name="com.intuit.sample.project.PermutationTest">
+        <test-method status="PASS" signature="testStringPermutationsEmptyStringPositive()[pri:0, instance:com.intuit.sample.project.PermutationTest@4e9222f0]" name="testStringPermutationsEmptyStringPositive" duration-ms="14" started-at="2015-07-30T15:42:02Z" finished-at="2015-07-30T15:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringPermutationsEmptyStringPositive -->
+        <test-method status="PASS" signature="testStringPermutationsNullStringNegative()[pri:0, instance:com.intuit.sample.project.PermutationTest@4e9222f0]" name="testStringPermutationsNullStringNegative" duration-ms="1" started-at="2015-07-30T15:42:02Z" finished-at="2015-07-30T15:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringPermutationsNullStringNegative -->
+        <test-method status="PASS" signature="testStringPermutationsSampleStringAllRepeatedCharsPositive()[pri:0, instance:com.intuit.sample.project.PermutationTest@4e9222f0]" name="testStringPermutationsSampleStringAllRepeatedCharsPositive" duration-ms="0" started-at="2015-07-30T15:42:02Z" finished-at="2015-07-30T15:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringPermutationsSampleStringAllRepeatedCharsPositive -->
+        <test-method status="PASS" signature="testStringPermutationsSampleStringOfLenghtOnePositive()[pri:0, instance:com.intuit.sample.project.PermutationTest@4e9222f0]" name="testStringPermutationsSampleStringOfLenghtOnePositive" duration-ms="1" started-at="2015-07-30T15:42:02Z" finished-at="2015-07-30T15:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringPermutationsSampleStringOfLenghtOnePositive -->
+        <test-method status="PASS" signature="testStringPermutationsSampleStringPositive()[pri:0, instance:com.intuit.sample.project.PermutationTest@4e9222f0]" name="testStringPermutationsSampleStringPositive" duration-ms="1" started-at="2015-07-30T15:42:02Z" finished-at="2015-07-30T15:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringPermutationsSampleStringPositive -->
+      </class> <!-- com.intuit.sample.project.PermutationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
