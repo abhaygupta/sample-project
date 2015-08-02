@@ -6,6 +6,21 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * Just to summarize we call wait (), notify () or notifyAll method in Java from
+ * synchronized method or synchronized block in Java to avoid: 
+ * 1) IllegalMonitorStateException in Java which will occur if we don't call wait
+ * (), notify () or notifyAll () method from synchronized context. 
+ * 2) Any potential race condition between wait and notify method in Java.
+ * 
+ * 
+ * Read more:
+ * http://javarevisited.blogspot.com/2011/05/wait-notify-and-notifyall-in-java.
+ * html#ixzz3hgZ27US9
+ * 
+ * @author agupta13
+ *
+ */
 public class ProducerConsumer {
 
 	private static int maxSize = 10;
