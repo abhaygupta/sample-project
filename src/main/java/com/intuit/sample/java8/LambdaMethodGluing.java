@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class LambdaExpSample1 {
+public class LambdaMethodGluing {
 
 	/**
 	 * http://winterbe.com/posts/2014/03/16/java-8-tutorial/
