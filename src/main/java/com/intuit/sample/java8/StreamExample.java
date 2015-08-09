@@ -2,6 +2,7 @@ package com.intuit.sample.java8;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.UUID;
 import java.util.stream.Stream;
 
@@ -138,12 +139,12 @@ public class StreamExample {
 	public void testParallelStreamSorting() {
 		long start = System.nanoTime();
 		System.out.println("Starting sequential sorting on element, size=" + bigCollectionSize);
-		bigCollection.stream().sorted((a, b) -> a.compareTo(b));
+		bigCollection.stream().sorted((a, b) -> a.compareTo(b)).findFirst().ifPresent(System.out::println);
 		System.out.println("Completed sequential sorting time taken=" + (System.nanoTime() - start) + " millis");
 
 		start = System.nanoTime();
 		System.out.println("Starting parallel sorting on element, size=" + bigCollectionSize);
-		bigCollection.parallelStream().sorted((a, b) -> a.compareTo(b));
+		bigCollection.parallelStream().sorted((a, b) -> a.compareTo(b)).findFirst().ifPresent(System.out::println);
 		System.out.println("Completed parallel sorting time taken=" + (System.nanoTime() - start) + " millis");
 	}
 }
